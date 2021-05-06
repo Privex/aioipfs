@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import os
 import os.path
 import re
@@ -37,7 +38,7 @@ setup(
     url='https://gitlab.com/Privex/aioipfs',
     description='Asynchronous IPFS client library (Privex Fork)',
     long_description=long_description,
-    packages=find_packages(),
+    packages=find_packages(exclude=['tests', 'tests.*', 'test.*']),
     include_package_data=False,
     install_requires=install_reqs,
     classifiers=[
