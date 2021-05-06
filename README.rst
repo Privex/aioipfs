@@ -7,15 +7,24 @@ aioipfs
 **aioipfs** is a python3 library providing an asynchronous API for IPFS_.
 Supported python versions: *3.6*, *3.7*, *3.8*, *3.9*
 
+**NOTE:** This is a separate fork of the Original_ created by @pinnaculum (formerly ``cipres``).
+This fork is maintained by `Privex Inc.`_ (primarily by @someguy123) - a Belizean server hosting + technology company.
+
 .. image:: https://github.com/pinnaculum/aioipfs/workflows/aioipfs-build/badge.svg
     :target: https://github.com/pinnaculum/aioipfs
+
+.. _Original: https://github.com/pinnaculum/aioipfs
+.. _Privex Inc: https://www.privex.io/
 
 Installation
 ============
 
 .. code-block:: shell
 
-    pip install aioipfs
+    pip3 install privex-aioipfs
+    # Or if you use pipenv
+    pipenv install privex-aioipfs
+
 
 Usage examples
 ==============

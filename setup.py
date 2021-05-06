@@ -29,13 +29,13 @@ with open('requirements.txt') as f:
     install_reqs = f.read().splitlines()
 
 setup(
-    name='aioipfs',
+    name='privex_aioipfs',
     version=version,
     license='LGPLv3',
     author='cipres',
-    author_email='alkaline@gmx.co.uk',
-    url='https://gitlab.com/cipres/aioipfs',
-    description='Asynchronous IPFS client library',
+    author_email='chris@privex.io',
+    url='https://gitlab.com/Privex/aioipfs',
+    description='Asynchronous IPFS client library (Privex Fork)',
     long_description=long_description,
     packages=find_packages(),
     include_package_data=False,
