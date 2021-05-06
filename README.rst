@@ -14,7 +14,7 @@ This fork is maintained by `Privex Inc.`_ (primarily by @someguy123) - a Belizea
     :target: https://github.com/pinnaculum/aioipfs
 
 .. _Original: https://github.com/pinnaculum/aioipfs
-.. _Privex Inc: https://www.privex.io/
+.. _Privex Inc.: https://www.privex.io/
 
 Installation
 ============
