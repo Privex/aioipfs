@@ -39,8 +39,9 @@ setup(
     description='Asynchronous IPFS client library (Privex Fork)',
     long_description=long_description,
     packages=find_packages(exclude=['tests', 'tests.*', 'test.*']),
-    include_package_data=False,
     install_requires=install_reqs,
+    scripts=['bin/ipfs-find'],
+    include_package_data=True,
     classifiers=[
         'Programming Language :: Python',
         'Programming Language :: Python :: 3.6',
