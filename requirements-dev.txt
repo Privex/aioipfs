@@ -1,5 +1,14 @@
 pytest
 pytest-asyncio
+pytest-cov
+coverage
+codecov
 tox
 flake8
+jupyter
+jupyter-console
+setuptools
 wheel
+twine
+semver
+
