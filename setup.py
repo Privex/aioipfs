@@ -35,7 +35,7 @@ setup(
     license='LGPLv3',
     author='cipres',
     author_email='chris@privex.io',
-    url='https://gitlab.com/Privex/aioipfs',
+    url='https://github.com/Privex/aioipfs',
     description='Asynchronous IPFS client library (Privex Fork)',
     long_description=long_description,
     packages=find_packages(exclude=['tests', 'tests.*', 'test.*']),
